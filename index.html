@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bienvenidos</title>
+</head>
+<body>
+<h1>INGRESE DATOS </h1>
+
+<form action="index.html" method="post"></form>
+
+<p> 
+	<label for="nombre" > INGRESE SU NOMBRE </label><br>
+	<input type="text" name="nombre" id="nombre" size="20"
+	maxlength="10">
+</p>
+<p> 
+	<label for="nombre" > INGRESE SU CONTRASEÑA </label><br>
+	<input type="PASSWORD" name="clave" id="clave" size="20"
+	maxlength="10">
+</p>
+<h4> INDIQUE SU GENERO</h4>
+<P>
+	<input type="radio" name="genero" id="generoh" value="hombre">
+	<label for="generoh" > Hombre </label><br>
+	<input type="radio" name="genero" id="generom" value="Mujer">
+	<label for="generoh" > Mujer </label><br>
+	</P>
+<h4>DIAS DISPONIBLES</h4>
+<p>
+	<input type="checkbox" name="dias" id="lunes" value="lunes">
+	<label for="lunes" > lunes</label><br>
+
+	<input type="checkbox" name="dias" id="martes" value="martes">
+	<label for="martes" > martes</label><br>
+
+	<input type="checkbox" name="dias" id="miercoles" value="miercoles">
+	<label for="miercoles" > miercoles</label><br>
+
+	<input type="checkbox" name="dias" id="jueves" value="jueves">
+	<label for="jueves" > jueves</label><br>
+
+	<input type="checkbox" name="dias" id="viernes" value="viernes">
+	<label for="viernes" > viernes</label><br>
+
+</p>	
+
+<label for="tuemail">Tu email</label><br>
+<input type="email" name="tuemail" id="tuemail" placeholder="tuemail@tusitio.com"><br>
+<label for="url">INGRESE SU WEB</label><br>
+<input type="url" name="url" id="url" placeholder="http://www.tusitio.com">
+<label for="telefono">ingresar su telefono</label><br>
+<input type="tel" name="telefono" id="telefono">
+<input type="datetime-local" name="fechaHora">
+<label for="buscar">Buscar</label><br>
+<input type="search" name="buscar" id="buscar">
+<label for="cantidad">cantidad de producto</label><br>
+<input type="number" name="cantidad" id="cantidad" min="2" maxlength="10" step="1">
+<label for="experiencia"> Experiencia informatica</label><br>
+<input type="range" name="experiencia" min="0" max="50">
+<input type="color" name="colorElegido">
+<input type="color" name="colorElegido" value="#ff0000">
+</p>	
+ <input type="month" name="mes">
+ <input type="week" name="semana">
+  <input type="time" name="hora">
+
+<p>
+	<input type="submit" value="enviar datos">
+    <input type="reset" value="Borrar información">
+</p>
+</body>
+</html>
